@@ -18,10 +18,7 @@ public class DocumentController {
     private final DocumentService documentService;
 
     @PostMapping
-    public Document create(
-            @Valid @RequestBody CreateDocumentRequest request
-    ) {
-
+    public Document create(@Valid @RequestBody CreateDocumentRequest request) {
         return documentService.create(request);
     }
 
