@@ -23,10 +23,7 @@ public class DocumentController {
     }
 
     @GetMapping("/{id}")
-    public Document get(
-            @PathVariable Long id
-    ) {
-
+    public Document get(@PathVariable Long id) {
         return documentService.get(id);
     }
 
