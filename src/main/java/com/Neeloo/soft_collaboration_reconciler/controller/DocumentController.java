@@ -30,7 +30,6 @@ public class DocumentController {
 
     @GetMapping
     public List<Document> getAll() {
-
         return documentService.getAll();
     }
 }
