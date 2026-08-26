@@ -10,7 +10,7 @@ public class SoftCollaborationReconcilerApplication {
 	public static void main(String[] args) {
 
         SpringApplication.run(SoftCollaborationReconcilerApplication.class, args);
-        System.out.println("Hello");
+        //System.out.println("Hello");
 	}
 
 }
